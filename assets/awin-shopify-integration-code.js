@@ -187,18 +187,18 @@
 			noteAttributes.__awc = pAwc;
 		}
 
-		if ('fetch' in window) {
-			fetch('/cart/update.js', {
-				method: 'POST',
-				body: JSON.stringify({
-					note: '',
-					attributes: noteAttributes,
-				}),
-				headers: {
-					'Content-type': 'application/json',
-				},
-			});
-		}
+		// if ('fetch' in window) {
+		// 	fetch('/cart/update.js', {
+		// 		method: 'POST',
+		// 		body: JSON.stringify({
+		// 			note: '',
+		// 			attributes: noteAttributes,
+		// 		}),
+		// 		headers: {
+		// 			'Content-type': 'application/json',
+		// 		},
+		// 	});
+		// }
 	}
 
 	function handleCheckout(advertiserId) {
