@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="db5d7e74-4e42-4b97-b48c-efd7b15c4c9b" name="aison" url="http://www.aison.cn">
+        <fileTransfer rootFolder="/home/wwwroot/www.aison.cn" accessType="SFTP" host="123.57.192.174" port="22" sshConfigId="722daae1-9b00-4393-8e6f-59655d93a6bf" sshConfig="root@123.57.192.174:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
